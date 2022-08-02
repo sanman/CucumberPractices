@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.488">
+<testcase classname="Uber Booking Feature" name="Booking Cab Sedan" time="0.091">
+<system-out><![CDATA[Given User wants to select a car type "sedan" from app......................passed
+When User selects car "sedan" and pickup point "Bangalore" and drop location "Pune".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 100 USD......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Uber Booking Feature" name="Booking Cab SUV" time="0.017">
+<system-out><![CDATA[Given User wants to select a car type "suv" from app........................passed
+When User selects car "suv" and pickup point "Bangalore" and drop location "Hyderabad".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 150 USD......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Uber Booking Feature" name="Booking Cab Mini" time="0.016">
+<system-out><![CDATA[Given User wants to select a car type "mini" from app.......................passed
+When User selects car "mini" and pickup point "Pune" and drop location "Mumbai".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 200 USD......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Uber Booking Feature" name="Booking Cab Hatchback" time="0.014">
+<system-out><![CDATA[Given User wants to select a car type "hatchback" from app..................passed
+When User selects car "sedan" and pickup point "Delhi" and drop location "Jaipur".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 500 USD......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
